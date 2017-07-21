@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BE7103EA49A02AD7F58D32 /* libPods-meridian-ios-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */; };
+		CC3E2E1C1F2125B70021C3C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E1B1F2125B70021C3C7 /* main.m */; };
+		CC3E2E1F1F2125B70021C3C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E1E1F2125B70021C3C7 /* AppDelegate.m */; };
+		CC3E2E251F2125B70021C3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3E2E231F2125B70021C3C7 /* Main.storyboard */; };
+		CC3E2E271F2125B70021C3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3E2E261F2125B70021C3C7 /* Assets.xcassets */; };
+		CC3E2E2A1F2125B70021C3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3E2E281F2125B70021C3C7 /* LaunchScreen.storyboard */; };
+		CC3E2E351F2134BB0021C3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E341F2134BB0021C3C7 /* Foundation.framework */; };
+		CC3E2E371F2134C40021C3C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E361F2134C40021C3C7 /* UIKit.framework */; };
+		CC3E2E391F2134D50021C3C7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E381F2134D50021C3C7 /* CoreMotion.framework */; };
+		CC3E2E3B1F2134DF0021C3C7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E3A1F2134DF0021C3C7 /* CoreLocation.framework */; };
+		CC3E2E3D1F2134EC0021C3C7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E3C1F2134EC0021C3C7 /* CoreBluetooth.framework */; };
+		CC3E2E3F1F2134F50021C3C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E3E1F2134F50021C3C7 /* SystemConfiguration.framework */; };
+		CC3E2E411F2134FF0021C3C7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E401F2134FF0021C3C7 /* MobileCoreServices.framework */; };
+		CC3E2E431F21350D0021C3C7 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E421F21350D0021C3C7 /* libxml2.2.tbd */; };
+		CC3E2E451F2135180021C3C7 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3E2E441F2135180021C3C7 /* libc++.1.tbd */; };
+		CC3E2E501F2138AD0021C3C7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E4F1F2138AD0021C3C7 /* TableViewController.m */; };
+		CC3E2E531F214D990021C3C7 /* BasicMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E521F214D990021C3C7 /* BasicMapViewController.m */; };
+		CC3E2E571F2171140021C3C7 /* UserLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E561F2171130021C3C7 /* UserLocationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meridian-ios-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D67267C0B8DEB25A369534 /* Pods-meridian-ios-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F1B4CA0C2233CC93FC59AF /* Pods-meridian-ios-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.release.xcconfig"; sourceTree = "<group>"; };
+		CC3E2E171F2125B70021C3C7 /* meridian-ios-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meridian-ios-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3E2E1B1F2125B70021C3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3E2E1D1F2125B70021C3C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC3E2E1E1F2125B70021C3C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC3E2E241F2125B70021C3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3E2E261F2125B70021C3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3E2E291F2125B70021C3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3E2E2B1F2125B70021C3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3E2E341F2134BB0021C3C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC3E2E361F2134C40021C3C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC3E2E381F2134D50021C3C7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CC3E2E3A1F2134DF0021C3C7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CC3E2E3C1F2134EC0021C3C7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CC3E2E3E1F2134F50021C3C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC3E2E401F2134FF0021C3C7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CC3E2E421F21350D0021C3C7 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		CC3E2E441F2135180021C3C7 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		CC3E2E4E1F2138AD0021C3C7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = SOURCE_ROOT; };
+		CC3E2E4F1F2138AD0021C3C7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = SOURCE_ROOT; };
+		CC3E2E511F214D990021C3C7 /* BasicMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMapViewController.h; sourceTree = "<group>"; };
+		CC3E2E521F214D990021C3C7 /* BasicMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMapViewController.m; sourceTree = "<group>"; };
+		CC3E2E551F2171130021C3C7 /* UserLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationController.h; sourceTree = "<group>"; };
+		CC3E2E561F2171130021C3C7 /* UserLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3E2E141F2125B60021C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3E2E451F2135180021C3C7 /* libc++.1.tbd in Frameworks */,
+				CC3E2E431F21350D0021C3C7 /* libxml2.2.tbd in Frameworks */,
+				CC3E2E411F2134FF0021C3C7 /* MobileCoreServices.framework in Frameworks */,
+				CC3E2E3F1F2134F50021C3C7 /* SystemConfiguration.framework in Frameworks */,
+				CC3E2E3D1F2134EC0021C3C7 /* CoreBluetooth.framework in Frameworks */,
+				CC3E2E3B1F2134DF0021C3C7 /* CoreLocation.framework in Frameworks */,
+				CC3E2E391F2134D50021C3C7 /* CoreMotion.framework in Frameworks */,
+				CC3E2E371F2134C40021C3C7 /* UIKit.framework in Frameworks */,
+				CC3E2E351F2134BB0021C3C7 /* Foundation.framework in Frameworks */,
+				75BE7103EA49A02AD7F58D32 /* libPods-meridian-ios-objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD1675A910B0837183CF537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70D67267C0B8DEB25A369534 /* Pods-meridian-ios-objc.debug.xcconfig */,
+				A8F1B4CA0C2233CC93FC59AF /* Pods-meridian-ios-objc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC3E2E0E1F2125B60021C3C7 = {
+			isa = PBXGroup;
+			children = (
+				CC3E2E191F2125B70021C3C7 /* meridian-ios-objc */,
+				CC3E2E181F2125B70021C3C7 /* Products */,
+				CC3E2E331F2134BB0021C3C7 /* Frameworks */,
+				4FD1675A910B0837183CF537 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3E2E181F2125B70021C3C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E2E171F2125B70021C3C7 /* meridian-ios-objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3E2E191F2125B70021C3C7 /* meridian-ios-objc */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E2E1D1F2125B70021C3C7 /* AppDelegate.h */,
+				CC3E2E1E1F2125B70021C3C7 /* AppDelegate.m */,
+				CC3E2E4E1F2138AD0021C3C7 /* TableViewController.h */,
+				CC3E2E4F1F2138AD0021C3C7 /* TableViewController.m */,
+				CC3E2E551F2171130021C3C7 /* UserLocationController.h */,
+				CC3E2E561F2171130021C3C7 /* UserLocationController.m */,
+				CC3E2E511F214D990021C3C7 /* BasicMapViewController.h */,
+				CC3E2E521F214D990021C3C7 /* BasicMapViewController.m */,
+				CC3E2E231F2125B70021C3C7 /* Main.storyboard */,
+				CC3E2E261F2125B70021C3C7 /* Assets.xcassets */,
+				CC3E2E281F2125B70021C3C7 /* LaunchScreen.storyboard */,
+				CC3E2E2B1F2125B70021C3C7 /* Info.plist */,
+				CC3E2E1A1F2125B70021C3C7 /* Supporting Files */,
+				CC3E2E541F214DB20021C3C7 /* Resources */,
+			);
+			path = "meridian-ios-objc";
+			sourceTree = "<group>";
+		};
+		CC3E2E1A1F2125B70021C3C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E2E1B1F2125B70021C3C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3E2E331F2134BB0021C3C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3E2E441F2135180021C3C7 /* libc++.1.tbd */,
+				CC3E2E421F21350D0021C3C7 /* libxml2.2.tbd */,
+				CC3E2E401F2134FF0021C3C7 /* MobileCoreServices.framework */,
+				CC3E2E3E1F2134F50021C3C7 /* SystemConfiguration.framework */,
+				CC3E2E3C1F2134EC0021C3C7 /* CoreBluetooth.framework */,
+				CC3E2E3A1F2134DF0021C3C7 /* CoreLocation.framework */,
+				CC3E2E381F2134D50021C3C7 /* CoreMotion.framework */,
+				CC3E2E361F2134C40021C3C7 /* UIKit.framework */,
+				CC3E2E341F2134BB0021C3C7 /* Foundation.framework */,
+				654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3E2E541F214DB20021C3C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3E2E161F2125B60021C3C7 /* meridian-ios-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3E2E2E1F2125B70021C3C7 /* Build configuration list for PBXNativeTarget "meridian-ios-objc" */;
+			buildPhases = (
+				F8475BE9B868815C497E3E26 /* [CP] Check Pods Manifest.lock */,
+				CC3E2E131F2125B60021C3C7 /* Sources */,
+				CC3E2E141F2125B60021C3C7 /* Frameworks */,
+				CC3E2E151F2125B60021C3C7 /* Resources */,
+				401FAF6C35C2EAFE2225B898 /* [CP] Embed Pods Frameworks */,
+				3C4CF7E9F0DCCB837E9B5F8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "meridian-ios-objc";
+			productName = "meridian-ios-objc";
+			productReference = CC3E2E171F2125B70021C3C7 /* meridian-ios-objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3E2E0F1F2125B60021C3C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tfrth;
+				TargetAttributes = {
+					CC3E2E161F2125B60021C3C7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6DM3LM6ZH6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC3E2E121F2125B60021C3C7 /* Build configuration list for PBXProject "meridian-ios-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3E2E0E1F2125B60021C3C7;
+			productRefGroup = CC3E2E181F2125B70021C3C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3E2E161F2125B60021C3C7 /* meridian-ios-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3E2E151F2125B60021C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3E2E2A1F2125B70021C3C7 /* LaunchScreen.storyboard in Resources */,
+				CC3E2E271F2125B70021C3C7 /* Assets.xcassets in Resources */,
+				CC3E2E251F2125B70021C3C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C4CF7E9F0DCCB837E9B5F8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		401FAF6C35C2EAFE2225B898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8475BE9B868815C497E3E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3E2E131F2125B60021C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3E2E1F1F2125B70021C3C7 /* AppDelegate.m in Sources */,
+				CC3E2E501F2138AD0021C3C7 /* TableViewController.m in Sources */,
+				CC3E2E571F2171140021C3C7 /* UserLocationController.m in Sources */,
+				CC3E2E531F214D990021C3C7 /* BasicMapViewController.m in Sources */,
+				CC3E2E1C1F2125B70021C3C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC3E2E231F2125B70021C3C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3E2E241F2125B70021C3C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3E2E281F2125B70021C3C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3E2E291F2125B70021C3C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3E2E2C1F2125B70021C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3E2E2D1F2125B70021C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3E2E2F1F2125B70021C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D67267C0B8DEB25A369534 /* Pods-meridian-ios-objc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6DM3LM6ZH6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "meridian-ios-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tfrth.meridian-ios-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC3E2E301F2125B70021C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F1B4CA0C2233CC93FC59AF /* Pods-meridian-ios-objc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6DM3LM6ZH6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "meridian-ios-objc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tfrth.meridian-ios-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3E2E121F2125B60021C3C7 /* Build configuration list for PBXProject "meridian-ios-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3E2E2C1F2125B70021C3C7 /* Debug */,
+				CC3E2E2D1F2125B70021C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3E2E2E1F2125B70021C3C7 /* Build configuration list for PBXNativeTarget "meridian-ios-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3E2E2F1F2125B70021C3C7 /* Debug */,
+				CC3E2E301F2125B70021C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3E2E0F1F2125B60021C3C7 /* Project object */;
+}
