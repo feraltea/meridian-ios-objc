@@ -10,7 +10,6 @@
 #import "ExamplesController.h"
 
 @interface UserLocationController () <MRMapViewDelegate>
-@property (strong, nonatomic)MRMapView *mapView;
 
 @end
 

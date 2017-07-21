@@ -9,7 +9,7 @@
 #import "BasicMapViewController.h"
 
 @interface BasicMapViewController () <MRMapViewDelegate>
-@property (nonatomic, strong) MRMapView *mapView;
+
 @end
 
 @implementation BasicMapViewController
