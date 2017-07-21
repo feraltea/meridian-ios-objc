@@ -8,15 +8,23 @@
 
 #import "BasicMapViewController.h"
 
-@interface BasicMapViewController ()
-
+@interface BasicMapViewController () <MRMapViewDelegate>
+@property (nonatomic, strong) MRMapView *mapView;
 @end
 
 @implementation BasicMapViewController
 
+-(void)loadView {
+    self.mapView = [[MRMapView alloc]init];
+    self.mapView.delegate = self;
+    self.mapView.mapKey = [MREditorKey keyForMap:MAP_ID app:APP_ID];
+    self.view = self.mapView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -10,4 +10,7 @@
 
 @interface TableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+//extern NSString *app_id;
+//extern NSString *map_id;
+
 @end

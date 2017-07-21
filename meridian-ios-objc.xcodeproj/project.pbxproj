@@ -31,6 +31,7 @@
 		654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meridian-ios-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D67267C0B8DEB25A369534 /* Pods-meridian-ios-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		A8F1B4CA0C2233CC93FC59AF /* Pods-meridian-ios-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.release.xcconfig"; sourceTree = "<group>"; };
+		CC242AE01F22A98B00346474 /* ExamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesController.h; sourceTree = "<group>"; };
 		CC3E2E171F2125B70021C3C7 /* meridian-ios-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meridian-ios-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3E2E1B1F2125B70021C3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC3E2E1D1F2125B70021C3C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 			children = (
 				CC3E2E1D1F2125B70021C3C7 /* AppDelegate.h */,
 				CC3E2E1E1F2125B70021C3C7 /* AppDelegate.m */,
+				CC242AE01F22A98B00346474 /* ExamplesController.h */,
 				CC3E2E4E1F2138AD0021C3C7 /* TableViewController.h */,
 				CC3E2E4F1F2138AD0021C3C7 /* TableViewController.m */,
 				CC3E2E551F2171130021C3C7 /* UserLocationController.h */,
@@ -456,6 +458,7 @@
 				CC3E2E301F2125B70021C3C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExamplesController.h"
 
-@interface BasicMapViewController : UIViewController
+@interface BasicMapViewController : MRMapViewController <ExamplesController>
 
 @end

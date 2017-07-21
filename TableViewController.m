@@ -8,11 +8,16 @@
 
 #import "TableViewController.h"
 
+//NSString *app_id = @"2";
+//NSString *map_id = @"1";
+
 @interface TableViewController ()
 
 @end
 
 @implementation TableViewController
+
+//NSString *app_id = @"";
 
 //create our array of meridian functionalist examples
 {

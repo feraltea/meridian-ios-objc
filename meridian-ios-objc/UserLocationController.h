@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExamplesController.h"
 
-@interface UserLocationController : UIViewController
+@interface UserLocationController : MRMapViewController <ExamplesController>
 
 @end

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D666BAB81EF959E9DE20030604741FC6ABF2AD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D666BAB81EF959E9DE20030604741FC6ABF2AD8" : 9223372036854775807,
+    "D35CEBEFAFF1F0D04FFD613317B59AA76CFBF4D3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "961C9796-A339-42E4-B845-5DA6F7BCD639",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D666BAB81EF959E9DE20030604741FC6ABF2AD8" : "meridian-ios-objc\/",
+    "D35CEBEFAFF1F0D04FFD613317B59AA76CFBF4D3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "meridian-ios-objc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "meridian-ios-objc.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/feraltea\/meridian-ios-objc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D666BAB81EF959E9DE20030604741FC6ABF2AD8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/feraltea\/meridian-sdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D35CEBEFAFF1F0D04FFD613317B59AA76CFBF4D3"
+    }
+  ]
+}

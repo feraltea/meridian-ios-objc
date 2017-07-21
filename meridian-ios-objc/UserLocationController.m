@@ -7,12 +7,27 @@
 //
 
 #import "UserLocationController.h"
+#import "ExamplesController.h"
 
-@interface UserLocationController ()
+@interface UserLocationController () <MRMapViewDelegate>
+@property (strong, nonatomic)MRMapView *mapView;
 
 @end
 
 @implementation UserLocationController
+
+-(void)loadView {
+    self.mapView = [[MRMapView alloc]init];
+    //show map picker
+  //  self.mapView.showsMapPicker = YES;
+    //show compass
+//    self.mapView.showsUserHeading = YES;
+    //show blue dot location
+   // self.mapView.showsUserLocation = YES;
+    self.mapView.delegate = self;
+    self.mapView.mapKey = [MREditorKey keyForMap:MAP_ID app:APP_ID];
+    self.view = self.mapView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

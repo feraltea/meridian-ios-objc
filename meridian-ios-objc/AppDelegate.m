@@ -17,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //configure Meridian and add application token
     MRConfig *config = [MRConfig new];
+    config.applicationToken = @"e62199e46faad453a1b247da26ab3561af0556a7";
     [Meridian configure:config];
     return YES;
 }

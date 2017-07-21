@@ -114,17 +114,7 @@
         <!--User Location Controller-->
         <scene sceneID="LfF-4X-XZT">
             <objects>
-                <viewController id="NUO-SU-89O" customClass="UserLocationController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ym3-hO-fee"/>
-                        <viewControllerLayoutGuide type="bottom" id="IMU-3f-SIb"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uZ2-Pw-ueA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
+                <viewController id="NUO-SU-89O" customClass="UserLocationController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UiI-1N-0Ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1927" y="-573"/>
@@ -150,17 +140,7 @@
         <!--Basic Map View Controller-->
         <scene sceneID="kv8-kj-0dq">
             <objects>
-                <viewController id="Ylo-Sk-ChS" customClass="BasicMapViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="rH0-lz-oSR"/>
-                        <viewControllerLayoutGuide type="bottom" id="H95-zc-kYn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QWR-CO-kC1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
-                    </view>
-                </viewController>
+                <viewController id="Ylo-Sk-ChS" customClass="BasicMapViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZb-Yz-R9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1202" y="-573"/>
@@ -170,7 +150,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cRc-yT-2Yp" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="31M-En-Mte">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="31M-En-Mte">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
