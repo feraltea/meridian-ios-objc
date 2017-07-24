@@ -28,7 +28,7 @@
     [super viewDidLoad];
     
     //initialize examples array
-    examples = [NSArray arrayWithObjects:@"Basic Map View", @"User Location", @"Campaign Monitoring", @"Tags", @"Directions", @"Custom Placemarks", nil];
+    examples = [NSArray arrayWithObjects:@"Basic Map View", @"User Location", @"Campaign Monitoring", @"Local Search", @"Directions", @"Custom Placemarks", @"Tags", nil];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -123,7 +123,7 @@
             [self performSegueWithIdentifier:@"Campaigns" sender:nil];
             break;
         case 3:
-            [self performSegueWithIdentifier:@"Tags" sender:nil];
+            [self performSegueWithIdentifier:@"Local Search" sender:nil];
             break;
         case 4:
             [self performSegueWithIdentifier:@"Directions" sender:nil];
@@ -131,9 +131,9 @@
         case 5:
             [self performSegueWithIdentifier:@"CustomPlacemarks" sender:nil];
             break;
-            //        case 6:
-            //            [self performSegueWithIdentifier:@"BasicMapView" sender:nil];
-            //            break;
+        case 6:
+            [self performSegueWithIdentifier:@"Tags" sender:nil];
+            break;
             //        case 7:
             //            [self performSegueWithIdentifier:@"BasicMapView" sender:nil];
             //            break;
