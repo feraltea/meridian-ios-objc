@@ -9,24 +9,30 @@
 #import "UserLocationController.h"
 #import "ExamplesController.h"
 
-@interface UserLocationController () <MRMapViewDelegate>
+@interface UserLocationController ()
+@property (strong, nonatomic) MRLocationManager *locationManager;
+@property (nonatomic, copy) MREditorKey *appKey;
 
 @end
 
 @implementation UserLocationController
 
 -(void)loadView {
+    
+    self.appKey = [MREditorKey keyWithIdentifier:APP_ID];
+    
+    //mapView stuffs
     self.mapView = [[MRMapView alloc]init];
-    //show map picker
-  //  self.mapView.showsMapPicker = YES;
-    //show compass
-//    self.mapView.showsUserHeading = YES;
-    //show blue dot location
-   // self.mapView.showsUserLocation = YES;
+    self.mapView.showsUserLocation = YES;
     self.mapView.delegate = self;
     self.mapView.mapKey = [MREditorKey keyForMap:MAP_ID app:APP_ID];
     self.view = self.mapView;
+    
+    //create our location manager
+    self.locationManager = [[MRLocationManager alloc]initWithApp:self.appKey];
+    self.locationManager.delegate = self;
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,6 +42,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    //start updating location (every time view appears)
+     [self.locationManager startUpdatingLocation];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    //stop updating location
+    [self.locationManager stopUpdatingLocation];
 }
 
 /*

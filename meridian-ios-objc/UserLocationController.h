@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ExamplesController.h"
 
-@interface UserLocationController : MRMapViewController <ExamplesController>
+@interface UserLocationController : MRMapViewController <ExamplesController, MRMapViewDelegate, MRLocationManagerDelegate>
 
 @end
