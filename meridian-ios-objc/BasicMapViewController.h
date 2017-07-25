@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ExamplesController.h"
 
-@interface BasicMapViewController : MRMapViewController <ExamplesController>
+@interface BasicMapViewController : MRMapViewController <ExamplesController, MRMapViewDelegate>
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75BE7103EA49A02AD7F58D32 /* libPods-meridian-ios-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */; };
+		CC1912AD1F27F34E001CB120 /* CampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1912AC1F27F34E001CB120 /* CampaignViewController.m */; };
 		CC3E2E1C1F2125B70021C3C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E1B1F2125B70021C3C7 /* main.m */; };
 		CC3E2E1F1F2125B70021C3C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3E2E1E1F2125B70021C3C7 /* AppDelegate.m */; };
 		CC3E2E251F2125B70021C3C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3E2E231F2125B70021C3C7 /* Main.storyboard */; };
@@ -31,6 +32,8 @@
 		654BDD34B15C4E316B389BE3 /* libPods-meridian-ios-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meridian-ios-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D67267C0B8DEB25A369534 /* Pods-meridian-ios-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		A8F1B4CA0C2233CC93FC59AF /* Pods-meridian-ios-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meridian-ios-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-meridian-ios-objc/Pods-meridian-ios-objc.release.xcconfig"; sourceTree = "<group>"; };
+		CC1912AB1F27F34E001CB120 /* CampaignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignViewController.h; sourceTree = "<group>"; };
+		CC1912AC1F27F34E001CB120 /* CampaignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignViewController.m; sourceTree = "<group>"; };
 		CC242AE01F22A98B00346474 /* ExamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesController.h; sourceTree = "<group>"; };
 		CC3E2E171F2125B70021C3C7 /* meridian-ios-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "meridian-ios-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3E2E1B1F2125B70021C3C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				CC3E2E561F2171130021C3C7 /* UserLocationController.m */,
 				CC3E2E511F214D990021C3C7 /* BasicMapViewController.h */,
 				CC3E2E521F214D990021C3C7 /* BasicMapViewController.m */,
+				CC1912AB1F27F34E001CB120 /* CampaignViewController.h */,
+				CC1912AC1F27F34E001CB120 /* CampaignViewController.m */,
 				CC3E2E231F2125B70021C3C7 /* Main.storyboard */,
 				CC3E2E261F2125B70021C3C7 /* Assets.xcassets */,
 				CC3E2E281F2125B70021C3C7 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			files = (
 				CC3E2E1F1F2125B70021C3C7 /* AppDelegate.m in Sources */,
 				CC3E2E501F2138AD0021C3C7 /* TableViewController.m in Sources */,
+				CC1912AD1F27F34E001CB120 /* CampaignViewController.m in Sources */,
 				CC3E2E571F2171140021C3C7 /* UserLocationController.m in Sources */,
 				CC3E2E531F214D990021C3C7 /* BasicMapViewController.m in Sources */,
 				CC3E2E1C1F2125B70021C3C7 /* main.m in Sources */,

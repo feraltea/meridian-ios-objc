@@ -1,30 +1,36 @@
 //
-//  BasicMapViewController.m
+//  CampaignViewController.m
 //  meridian-ios-objc
 //
-//  Created by Tyler Frith on 7/20/17.
+//  Created by Tyler Frith on 7/25/17.
 //  Copyright © 2017 tfrth. All rights reserved.
 //
 
-#import "BasicMapViewController.h"
+#import "CampaignViewController.h"
 
-@interface BasicMapViewController () 
+@interface CampaignViewController ()
+@property (nonatomic, copy) MREditorKey *appKey;
+@property (nonatomic, strong) MRCampaignManager *campaignManager;
+@property (nonatomic) BOOL shouldBeMonitoring;
 
 @end
 
-@implementation BasicMapViewController
+//simple view to start and stop monitoring for campaigns
+@implementation CampaignViewController
 
--(void)loadView {
-    self.mapView = [[MRMapView alloc]init];
-    self.mapView.delegate = self;
-    self.mapView.mapKey = [MREditorKey keyForMap:MAP_ID app:APP_ID];
-    self.view = self.mapView;
+- (void)dealloc {
+    //shut down campaignManager if it was running
+    [self.campaignManager stopMonitoring];
+    self.shouldBeMonitoring = NO;
+    
+    //unregister from notifications
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {
