@@ -11,4 +11,6 @@
 
 @interface UserLocationController : MRMapViewController <ExamplesController, MRMapViewDelegate, MRLocationManagerDelegate>
 
+//-(CGAffineTransform)trans;
+
 @end
